@@ -12,9 +12,9 @@ body{
 nav{
     max-width: 900px;
     margin: auto;
-    background-color: skyblue;
+    background-color: #333;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .menu-horizontal{
     list-style: none;
@@ -28,13 +28,14 @@ nav{
     text-decoration: none;
 }
 .menu-horizontal >li:hover{
-    background-color: red;
+    background-color: rgb(229, 255, 0);
+    border-radius: 30px;
 }
 .menu-vertical{
     position: absolute;
     display: none;
     list-style: none;
-    width: 200px;
+    width: 100px;
     background-color: rgba(0, 0, 0, .5);
 }
 .menu-horizontal li:hover .menu-vertical{
@@ -43,8 +44,9 @@ nav{
 .menu-vertical li:hover{
     background-color: black;
 }
-.menu-verticalli a{
+.menu-vertical li a{
     display: block;
-    color: white;
+    color: beige;
     padding: 15px 15px 15px;
+    text-decoration: none;
 }
